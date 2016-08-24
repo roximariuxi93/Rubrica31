@@ -35,10 +35,11 @@ public class Tablasmultiplicar {
         }
         if (opcion==2) {
                 
-            for (int i = 2; i < 12; i++) {
-                for (int j = 1; j < 12; j++) {
+            for (int i = 2; i <= 12; i++) {
+                System.out.println("\n"+"Tabla del "+i);
+                for (int j = 1; j <= 12; j++) {
                     total=i*j;
-                    System.out.println(i+" X "+j+" = "+total);
+                    System.out.println(j+" X "+i+" = "+total);
                 }
             }
                 
