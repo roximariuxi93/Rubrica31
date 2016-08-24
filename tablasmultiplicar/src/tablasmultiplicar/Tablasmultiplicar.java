@@ -16,7 +16,15 @@ public class Tablasmultiplicar {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("hola mundo");
+        System.out.println("Ingenieria de Software2");
+        
+        int tabla=2;
+        int total;
+        
+        for (int i = 1; i <= 12; i++) {
+           total= i*tabla;
+            System.out.println(""+total);
+        }
     }
     
 }
