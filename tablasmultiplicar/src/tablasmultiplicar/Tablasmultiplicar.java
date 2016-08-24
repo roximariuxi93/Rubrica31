@@ -27,7 +27,7 @@ public class Tablasmultiplicar {
         
         for (int i = 1; i <= 12; i++) {
            total= i*tabla;
-            System.out.println(""+total);
+            System.out.println(i+" X "+tabla+" = "+total);
         }
     }
     
